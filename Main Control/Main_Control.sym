@@ -18,5 +18,5 @@ hades.symbols.PortLabel 4650 750 3 RegDst
 hades.symbols.PortSymbol 4800 600 RegDst
 hades.symbols.PortLabel 150 750 OP
 hades.symbols.PortSymbol 0 600 OP
-hades.symbols.InstanceLabel 150 5250 MainControl
-hades.symbols.ClassLabel 150 450 MainControl
+hades.symbols.InstanceLabel 150 5250 Main_Control
+hades.symbols.ClassLabel 150 450 Main_Control
