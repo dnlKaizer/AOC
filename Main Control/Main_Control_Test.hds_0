@@ -1,0 +1,29 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.rtlib.io.IpinVector OP 13800 -600 @N 1001 6 101011_B 1.0E-9 2
+hades.models.io.Opin i8 22800 6600 @N 1001 5.0E-9
+hades.models.io.Opin i7 22800 -1800 @N 1001 5.0E-9
+hades.models.io.Opin i6 22800 5400 @N 1001 5.0E-9
+hades.models.io.Opin i5 22800 4200 @N 1001 5.0E-9
+hades.models.io.Opin i4 22800 3000 @N 1001 5.0E-9
+hades.models.io.Opin i3 22800 1800 @N 1001 5.0E-9
+hades.models.io.Opin i2 22800 600 @N 1001 5.0E-9
+hades.models.io.Opin i1 22800 -600 @N 1001 5.0E-9
+hades.models.Design MainControl 15000 -1200 @N 1001 C:/Users/Aluno/Roger\u002c\u0020apenas/AOC/Atividades/Trabalho\u00202/AOC-main/Main\u0020Control/Main_Control.hds
+hades.models.io.Opin i9 22800 -3000 @N 1001 5.0E-9
+[end components]
+[signals]
+hades.signals.SignalStdLogicVector n9 6 2 OP Y MainControl OP 1 2 13800 -600 15000 -600 0 
+hades.signals.SignalStdLogic1164 n8 2 MainControl RegDst i9 A 3 2 19800 -600 20400 -600 2 20400 -600 20400 -3000 2 20400 -3000 22800 -3000 0 
+hades.signals.SignalStdLogic1164 n7 2 MainControl ALUSrc i7 A 3 2 19800 0 21000 0 2 21000 0 21000 -1800 2 21000 -1800 22800 -1800 0 
+hades.signals.SignalStdLogic1164 n6 2 MainControl MemtoReg i1 A 3 2 19800 600 21600 600 2 21600 600 21600 -600 2 21600 -600 22800 -600 0 
+hades.signals.SignalStdLogic1164 n5 2 MainControl ALUOp0 i8 A 3 2 19800 4200 20400 4200 2 20400 4200 20400 6600 2 20400 6600 22800 6600 0 
+hades.signals.SignalStdLogic1164 n4 2 MainControl ALUOp1 i6 A 3 2 19800 3600 21000 3600 2 21000 3600 21000 5400 2 21000 5400 22800 5400 0 
+hades.signals.SignalStdLogic1164 n3 2 MainControl Branch i5 A 3 2 19800 3000 21600 3000 2 21600 3000 21600 4200 2 21600 4200 22800 4200 0 
+hades.signals.SignalStdLogic1164 n2 2 MainControl MemWrite i4 A 3 2 19800 2400 22200 2400 2 22200 2400 22200 3000 2 22200 3000 22800 3000 0 
+hades.signals.SignalStdLogic1164 n1 2 MainControl RegWrite i2 A 3 2 19800 1200 22200 1200 2 22200 1200 22200 600 2 22200 600 22800 600 0 
+hades.signals.SignalStdLogic1164 n0 2 MainControl MemRead i3 A 1 2 19800 1800 22800 1800 0 
+[end signals]
+[end]
